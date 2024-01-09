@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sen">
+  
+  <!-- Custom Styles -->
+  <style>
+    body {
+      font-size: 15pt;
+      font-family: Sen;
+      color: #ffffff;
+      margin: 100px;
+      background-color: #5d3fab;
+    }
+
+
+    body > * + * {
+      margin-top: 50px;
+    }
+
+
+    footer * {
+      display: inline;
+      vertical-align: middle;
+    }
+
+
+    .column-name {
+      font-weight: bold;
+    }
+    
+    .container {
+      display: grid;
+      margin-top: 75px;
+      max-width: 900px;
+      grid-template-columns: 1fr 2fr 3fr;
+      gap: 20px 10px;
+    }
+    
+    .container > * {
+      /* border-radius: 5px;   */
+      padding: 10px;
+      /* background-color: rgb(207, 232, 220);
+      border: 2px solid rgb(79, 185, 227); */
+    }
+    
+    p {
+      padding: 0;
+      margin: 0;
+    }
+    
+    .event-content p + p {
+      font-style: italic;
+    }
+  </style>
+</head>
+
+
+<body>
+  <h1>Kansallisen neurokeskuksen vierailu Jyväskylässä</h1>
+  <div class="container">
+    <p class="column-name">Kellonaika</p>
+    <div class="event-content">
+      <p class="column-name">Tapahtuma</p>
+      <p class="column-name">Paikalla</p>
+    </div>
+    <p class="column-name">Paikka</p>
+
+
+    <p>9-9.30</p>
+    <div class="event-content">
+      <p>JKL Brain & Mind / CIBR -esittely</p>
+      <p>Tiina Parviainen</p>
+    </div>
+    <p>Mattilanniemi</p>
+    
+    <p>9.30-45</p>
+    <div class="event-content">
+      <p>Siirtyminen laboratoriokeskukseen</p>
+      <p></p>
+    </div>
+    <p></p>
+    
+    <p>9.45-10.45</p>
+    <div class="event-content">
+      <p>Laboratoriokeskus</p>
+      <p>Miriam Nokia</p>
+    </div>
+    <p>Ylistönrinne</p>
+    
+    <p>10.45-11</p>
+    <div class="event-content">
+      <p>Siirtyminen Mattilanniemeen</p>
+      <p></p>
+    </div>
+    <p></p>
+    
+    <p>11-11.30</p>
+    <div class="event-content">
+      <p>Psykologian laitos, EEG-laboratoriot</p>
+      <p>Paavo Leppänen</p>
+    </div>
+    <p>Mattilanniemi</p>
+    
+    <p>11.30-12</p>
+    <div class="event-content">
+      <p>Jyväskylän seudun innovaatioekosysteemi</p>
+      <p>Jarno Mikkonen</p>
+    </div>
+    <p>Mattilanniemi</p>
+      
+    <p>12-12.30</p>
+    <div class="event-content">
+      <p>CIBR-ohjausryhmän tapaaminen</p>
+      <p></p>
+    </div>
+    <p>Mattilanniemi</p>
+      
+    <p>12.30-13.15</p>
+    <div class="event-content">
+      <p>Lounas Kärki-rakennuksella</p>
+      <p>Harri Piitulainen</p>
+    </div>
+    <p>Mattilanniemi</p>
+      
+    <p>13.15-14</p>
+    <div class="event-content">
+      <p>Psykologian laitos, MEG-laboratorio</p>
+      <p>Simo Monto</p>
+    </div>
+    <p>Mattilanniemi</p>
+
+
+    <p>14-14.15</p>
+    <div class="event-content">
+      <p>Siirtyminen liikuntatieteellisen tiedekunnan tiloihin</p>
+      <p></p>
+    </div>
+    <p></p>
+
+
+    <p>14.15-15</p>
+    <div class="event-content">
+      <p>Liikuntatieteellisen tiedekunnan laboratoriot</p>
+      <p>Sakari Vekki</p>
+    </div>
+    <p>Seminaarinmäki</p>
+  </div>
+  <footer>
+    <h2>Lämpimästi tervetuloa!</h2>
+    <img src="Neurocenter_Finland_Jyvaskyla_nega.png" alt="jyvaskyla-brain-and-mind-logo">
+  </footer>
+</body>
+</html>
